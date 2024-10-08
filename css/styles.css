@@ -52,10 +52,7 @@ a {
   font-style: normal;
 }
 
-.header-contact-link:hover {
-  color: #404bbf;
-}
-
+.header-contact-link:hover,
 .header-contact-link:focus {
   color: #404bbf;
 }
@@ -86,7 +83,7 @@ a {
 
 .baner-button:hover,
 .baner-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .advantages-title {
@@ -128,6 +125,7 @@ a {
 .teams-item {
   background-color: #ffffff;
 }
+
 .teams-name {
   font-weight: 500;
   font-size: 20px;
