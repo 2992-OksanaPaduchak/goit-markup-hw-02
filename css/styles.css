@@ -1,4 +1,5 @@
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -40,7 +41,7 @@ a {
 }
 
 .header-contact {
-  font-style: none;
+  font-style: normal;
 }
 
 .header-contact-link {
@@ -51,7 +52,10 @@ a {
   font-style: normal;
 }
 
-.header-contact-link:hover,
+.header-contact-link:hover {
+  color: #404bbf;
+}
+
 .header-contact-link:focus {
   color: #404bbf;
 }
@@ -121,7 +125,7 @@ a {
   color: #2e2f42;
 }
 
-.teams-list {
+.teams-item {
   background-color: #ffffff;
 }
 .teams-name {
